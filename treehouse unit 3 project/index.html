@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">	
+	<title>Treehouse Unit 3</title>
+</head>
+<body>
+ <div class="container">	
+   <header>
+   	<h1 class="head">the code review</h1>
+   </header>
+
+   <main class="main-content">
+   	<h1 class="head2">Signup for our newsletter</h1>
+    <p class="head-p">Get the latest news on how your code is doing right in your inbox</p>
+    <hr class="line">
+    <hr class="line2">
+
+   <form action="index.html" method="post" class="form1">	
+     <fieldset class="first">
+    	<legend class="form-head">Contact Information</legend>
+
+        <div class="right">
+         <label for="Name" class="font full">Full Name</label>
+         <input type="text" id="Name" name="user_name" placeholder="Required">
+        </div> 
+
+        <div class="right">
+         <label for="Email" class="font full">Email Address</label>
+         <input type="email" id="Email" name="user_email" placeholder="Required">
+        </div> 
+ 
+        <div class="right">
+         <label for="phone-number" class="font full">Phone Number</label>
+         <input type="tel" id="phone-number" name="user_number">
+        </div>
+
+        <div class="right">
+         <label for="address" class="font full">Street Address</label>
+         <input type="text" id="address" name="user_address">
+        </div>
+
+        <div class="right">
+         <label for="city" class="font full">City</label>
+         <input type="text" id="city" name="user_city">
+        </div>
+
+        <div class="right">
+         <label for="state" class="font full">State</label>
+         <select id="state" name="user_state" class="font">	
+            <option value=""disabled selected>Choose State</option>	
+        	<option value="hawaii">Hawaii</option>
+            <option value="california">California</option>
+            <option value="kansa">Kansas</option>
+            <option value="utah">Utah</option>
+            <option value="florida">Florida</option>
+            <option value="texas">Texas</option>   
+         </select>
+        </div><br>
+
+        <div class="right">
+         <label for="zip" class="font display">Zip Code</label>
+         <input type="text" id="zip" name="user_code">
+        </div> 
+     </fieldset> 
+     
+     <hr class="line3">
+
+      <fieldset class="second">
+      	<legend class="form-head top">Newsletter</legend>
+
+        <label class="font">Select the newsletters you would like to recieve</label><br>
+        <input type="checkbox" id="html" name="news" value="html-skills"><label for="html" class="font font-style">HTML News</label><br>
+        <input type="checkbox" id="css" name="news" value="css-skills"><label for="css" class="font font-style">CSS News</label><br>
+        <input type="checkbox" id="javascript" name="news" value="javascript-skills"><label for="javascript" class="font font-style">Javascript News</label><br>
+
+
+        <label class="font give letter">Newsletter format</label><br>
+        <input type="radio" id="radio-html" name="format" value="hypertext"><label for="radio-html" class="font give change">HTML</label><br>
+        <input type="radio" id="text" name="format" value="plaintext"><label for="text" class="font give change">Plain text</label><br>
+
+        <label for="topics" class="font push">Other topics you'd like to hear about</label><br>
+        <textarea id="topics" name="user_topic"></textarea>
+
+        <button type="submit" class="button">Sign up</button>
+
+
+        <p class="copy font">Copyright The Code Review</p>
+
+
+
+      </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+   </main>
+ </div>  
+</body>
+</html>
